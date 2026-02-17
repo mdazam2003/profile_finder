@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: white;
+}
+
+.nav_content {
+  padding: 0.5em 1.0em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav_content:hover {
+  border-color: #646cff;
+}
+
+.logo {
+  background-image: url("../quotes.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  padding-bottom: 0px;
+  height: 50px;
+  width: 50px;
+}
+
+ul a {
+  display: flex;
+  color: rgb(49, 45, 45);
+  cursor: pointer;
+}
+
+.home_image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 350px;
+  width: 450px;
+}
+
+.about_image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 300px;
+  width: 400px;
+}
+
+.first-div {
+  color: black;
+  text-align: left;
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+}
